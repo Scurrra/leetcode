@@ -4,6 +4,9 @@
  * @lc app=leetcode id=191 lang=cpp
  *
  * [191] Number of 1 Bits
+ * 
+ * Time complexity: O(log n)
+ * Space complexity: O(1)
  */
 
 // @lc code=start
