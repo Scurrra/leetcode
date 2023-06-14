@@ -17,22 +17,22 @@ class Solution
 public:
     int singleNumber(std::vector<int> &nums)
     {
-        std::map<int, bool> is_triple;
+        std::map<int, bool> is_single;
 
         for (auto &&num : nums)
         {
-            if (is_triple.find(num) == is_triple.end())
+            if (is_single.find(num) == is_single.end())
             {
-                is_triple[num] = true;
+                is_single[num] = true;
             }
             else
             {
-                is_triple[num] = false;
+                is_single[num] = false;
             }
         }
 
         return std::find_if(
-                   is_triple.begin(), is_triple.end(),
+                   is_single.begin(), is_single.end(),
                    [](const auto &checker)
                    {
                        return checker.second;
