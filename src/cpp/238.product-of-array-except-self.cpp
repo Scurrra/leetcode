@@ -24,7 +24,7 @@ public:
             factor *= nums[i];
         }
 
-        factor = 1;
+        int factor = 1;
         for (int i = nums.size() - 1; i >= 0; i--)
         {
             prods[i] *= factor;
