@@ -18,9 +18,9 @@ public:
         size_t n = s.size();
         for (size_t i = 0; i < n/2; i++)
         {
-            char buf = s[i];
-            s[i] = s[n-i-1];
-            s[n-i-1] = buf;
+            s[i] ^= s[n-i-1];
+            s[n-i-1] ^= s[i];
+            s[i] ^= s[n-i-1];
         }
     }
 };
