@@ -10,7 +10,7 @@ struct ListNode
 /*
  * @lc app=leetcode id=21 lang=cpp
  *
- * [21] Merge Two Sorted Listsy
+ * [21] Merge Two Sorted Lists
  * 
  * Time complexity: O(n + m)
  * Space complexity: O(1)
