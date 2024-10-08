@@ -1,7 +1,5 @@
-#include <vector>
-#include <numeric>
 #include <array>
-#include <iostream>
+#include <vector>
 
 /*
  * @lc app=leetcode id=62 lang=cpp
