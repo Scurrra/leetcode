@@ -6,6 +6,9 @@
  * @lc app=leetcode id=1814 lang=cpp
  *
  * [1814] Count Nice Pairs in an Array
+ * 
+ * Time: O(n) // reverse in O(10)
+ * Space: O(n)
  */
 
 // @lc code=start
