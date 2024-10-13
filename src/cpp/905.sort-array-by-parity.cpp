@@ -4,6 +4,9 @@
  * @lc app=leetcode id=905 lang=cpp
  *
  * [905] Sort Array By Parity
+ * 
+ * Time: O(n)
+ * Space: O(1)
  */
 
 // @lc code=start
