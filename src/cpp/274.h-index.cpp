@@ -6,6 +6,9 @@
  * @lc app=leetcode id=274 lang=cpp
  *
  * [274] H-Index
+ * 
+ * Time: O(n)
+ * Space: O(n)
  */
 
 // @lc code=start
