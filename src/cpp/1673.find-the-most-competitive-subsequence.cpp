@@ -26,7 +26,7 @@ public:
         }
 
         std::vector<int> answer{nums[mini]};
-        nums.reserve(nums.size() - mini + 1);
+        answer.reserve(nums.size() - mini + 1);
         for (size_t i = mini + 1; i < nums.size(); i++)
         {
             if (answer.back() > nums[i] && k + i < nums.size() + answer.size())
